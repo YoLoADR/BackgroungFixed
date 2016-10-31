@@ -1,0 +1,44 @@
+html, body{
+	/*Pleine page sans marge */
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.object{
+	/*Pleine page sans marge */
+	height: 100%;
+	width: 100%;
+	/*L'image couvrent toutes la largeur et la heuteur avec aucun espace libre pour la couleur d'arrière plan*/
+	background-size: cover;
+	/* L'arrière-plan est fixe par rapport à la zone d'affichage*/
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	/*Bonus pour centrer*/
+	display: table;
+}
+
+h1{
+	margin: 0;
+	/*Mettre au mileu*/
+	text-align: center;
+	/*Bonus pour centrer*/
+	display: table-cell;
+	vertical-align: middle;
+	
+}
+
+.un {
+	background-image: url('img/bg1.jpg');
+}
+.deux {
+	background-image: url('img/bg4.jpg');
+}
+.petit {
+	height: 50%;
+}
+.trois {
+	background-image: url('img/bg3.jpg');
+}
